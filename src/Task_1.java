@@ -5,7 +5,7 @@ import java.security.MessageDigest;
  */
 public class Task_1 {
 
-    public static void main(String[] args) throws Exception {
+    public static void solve() throws Exception {
         MessageDigest md = MessageDigest.getInstance("MD5");
         byte[] digest = md.digest("abracadabra".getBytes("UTF-8"));
         for (byte b : digest) {

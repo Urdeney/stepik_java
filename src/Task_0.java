@@ -2,7 +2,7 @@
  * Task0 :Напишите программу, выводящую в консоль It's alive! It's alive!
  */
 public class Task_0 {
-    public static void main() {
+    public static void solve() {
         System.out.println("It's alive! It's alive!");
     }
 }
