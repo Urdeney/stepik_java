@@ -18,6 +18,11 @@ public class Main {
         Task_13.solve();
         */
 
+        //Task_14
+        /*
+        Task_14.solve();
+        */
+
         //Task15
         /*
         String a = "  Hello   world !   ";

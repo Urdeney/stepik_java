@@ -31,11 +31,16 @@ final class ComplexNumber {
         return im;
     }
 
-    public boolean equals(ComplexNumber other) {
-        return (Double.valueOf(this.im).equals(other.im) &&
-                Double.valueOf(this.re).equals(other.re));
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {return true;}
+        if (obj == null || obj.getClass() != this.getClass()) {return false;}
+        ComplexNumber other = (ComplexNumber) obj;
+        if (other.re == this.re && other.im == this.im) {return true;}
+    return false;
     }
 
+    @Override
     public int hashCode() {
         return (Double.hashCode(this.im) + Double.hashCode(this.re));
     }
