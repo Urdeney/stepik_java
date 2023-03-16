@@ -13,7 +13,7 @@ public class Task_11 {
             for (int i = 0; i < textLines.length; i++){
                 if (textLines[i].indexOf(role) != -1)
                 {
-                    var trim_text = textLines[i].replaceFirst("^[а-яА-я0-9\s]+:\s", "");
+                    var trim_text = textLines[i].replaceFirst(role+":\s", "");
                     res_text.append(String.format("%d) %s\n",i+1,trim_text));
                 }
 

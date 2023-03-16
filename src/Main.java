@@ -5,20 +5,36 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         // Здесь можно запускать программы-решения
-        String [] roles= {
-            "Городничий","Аммос Федорович",
-            "Артемий Филиппович",
-            "Лука Лукич"};
-        String [] textLines={
-            "Городничий: Я пригласил вас, господа, с тем, чтобы сообщить вам пренеприятное известие: к нам едет ревизор.",
-            "Аммос Федорович: Как ревизор?",
-            "Артемий Филиппович: Как ревизор?",
-            "Городничий: Ревизор из Петербурга, инкогнито. И еще с секретным предписаньем.",
-            "Аммос Федорович: Вот те на!",
-            "Артемий Филиппович: Вот не было заботы, так подай!",
-            "Лука Лукич: Господи боже! еще и с секретным предписаньем!"};
 
-        System.out.println(Task_11.solve(roles, textLines));
-        }
+        //Task_12
+        /*
+        Robot robot = new Robot(0, 0, Direction.UP);
+        Task_12.solve(robot, 2, 8);
+        System.out.println();
+        */
+
+        //Task_13
+        /*
+        Task_13.solve();
+        */
+
+        //Task15
+        /*
+        String a = "  Hello   world !   ";
+        System.out.println(Arrays.toString(a.trim().split("\s+")));
+        Task_15.solve();
+        */
+
+        //Task16
+        /*
+        Task_16.solve();
+        */
+
+        //Task17
+        /*
+        Task_17.solve();
+        */
+        
+    }
 
 }
