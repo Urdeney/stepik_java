@@ -37,7 +37,7 @@ final class ComplexNumber {
         if (obj == null || obj.getClass() != this.getClass()) {return false;}
         ComplexNumber other = (ComplexNumber) obj;
         if (other.re == this.re && other.im == this.im) {return true;}
-    return false;
+        return false;
     }
 
     @Override
